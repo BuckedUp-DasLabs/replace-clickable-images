@@ -1,0 +1,17 @@
+.clickable-img-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  &,
+  img,
+  .clickable-img-img {
+    width: 100%;
+  }
+  img {
+    object-fit: cover;
+    cursor: pointer;
+    &.active {
+      display: none;
+    }
+  }
+}
