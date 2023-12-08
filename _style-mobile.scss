@@ -1,0 +1,18 @@
+.swiper {
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-scrollbar {
+    bottom: 0;
+    height: 0.31rem;
+    &-drag {
+      background: #435ebe;
+    }
+  }
+  &.has-scroll {
+    padding-bottom: 0.88rem;
+  }
+}
