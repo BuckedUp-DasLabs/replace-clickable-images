@@ -1,1 +1,1 @@
-.clickable-img-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:1rem;width:100%}.clickable-img-grid img{width:100%;-o-object-fit:cover;object-fit:cover;cursor:pointer}.clickable-img-grid img.active{display:none}.clickable-img-img{width:100%}
+.clickable-img-grid{display:grid;grid-template-columns:repeat(3, 1fr);gap:.25rem}.clickable-img-grid,.clickable-img-grid-img,.clickable-img-grid img{width:100%}.clickable-img-grid img{-o-object-fit:cover;object-fit:cover;cursor:pointer}.clickable-img-grid img.active{display:none}
